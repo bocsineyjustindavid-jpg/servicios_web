@@ -1,12 +1,219 @@
-/*  creacion de las tarjetas*/
-.contenedor-nosotros{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 500px;
-    margin: 0 auto;
-    background-color: bisque;
-    margin: 0 10px;
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background: white;
+    padding: 40px;
+}
+
+/* Contenedor General */
+.contenedor-principal{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+/* Primer Cuadro */
+.seccion-top{
+    background: beige;
+    border-radius: 20px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    min-height: 420px;
+}
+
+/* Texto */
+.texto{
+    width: 40%;
+}
+
+.texto span{
+    color: green;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.texto h1{
+    font-size: 40px;
+    margin: 15px 0;
+    line-height: 1.3;
+    color: #111827;
+}
+
+.texto p{
+    color: #555;
+    line-height: 1.7;
+}
+
+/* Imagen */
+.imagen{
+    width: 260px;
+    height: 260px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.05);
+}
+
+/* Tarjetas */
+.stats{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card{
+    width: 170px;
+    background: wheat;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.05);
+}
+
+.card h2{
+    font-size: 35px;
+    color: #111827;
+}
+
+.card p{
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Segundo cuadro */
+.contacto{
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+    /* ESTO hace que se unan los dos en uno solo */
+    width: 95%;
+    margin: -80px auto 0;
+    position: relative;
+    z-index: 10;
+
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.08);
+}
+
+/* Informacion */
+.info{
+    width: 35%;
+}
+
+.info h2{
+    font-size: 38px;
+    margin: 15px 0;
+    line-height: 1.3;
+    color: #111827;
+}
+
+
+.info p{
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.info button{
+    background: green;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Formulario */
+.formulario{
+    width: 60%;
+}
+
+.fila{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.input-box{
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    background: white;
+}
+
+.input-box i{
+    color: #888;
+}
+
+.input-box input{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.textarea{
+    align-items: flex-start;
+    padding-top: 15px;
+}
+
+.textarea textarea{
+    width: 100%;
+    height: 130px;
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 0 15px;
+    font-size: 15px;
+}
+
+/* BOTÓN */
+.btn-enviar{
+    background: green;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    float: right;
+    font-size: 16px;
+}
+
+/* RESPONSIVE */
+@media(max-width: 900px){
+
+    .seccion-top{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texto,
+    .formulario,
+    .info{
+        width: 100%;
+    }
+
+    .contacto{
+        flex-direction: column;
+        margin-top: -40px;
+    }
+
+    .fila{
+        flex-direction: column;
+    }
+}
