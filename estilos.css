@@ -1,0 +1,59 @@
+body{
+    background: linear-gradient(beige);
+}
+
+.baner{
+    width: 100%;
+    height: 10%;
+    background-color: blue;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.barra-nav{
+    background-color: transparent;
+}
+
+.barra-nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.box-caja{
+    margin: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 300px;
+    background-color: rgb(219, 239, 254);
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.box-caja2{
+    width: 90%;
+    margin-top: 40px;
+}
+
+.box-caja2 h2{
+    color: blue;
+    font-size: 15px;
+}
+
+.box-caja2 strong{
+    color: black;
+    font-size: 30px;
+}
+
+.box-caja2 h1{
+    color: blue;
+    font-size: 30px;
+}
+
+.box-caja2 p{
+    color: black;
+    font-size: 15px;
+}
