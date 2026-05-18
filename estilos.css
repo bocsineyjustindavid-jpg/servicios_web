@@ -1,0 +1,12 @@
+/*  creacion de las tarjetas*/
+.contenedor-nosotros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    margin: 0 auto;
+    background-color: bisque;
+    margin: 0 10px;
+
+}
+
