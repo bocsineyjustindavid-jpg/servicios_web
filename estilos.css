@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -216,4 +217,161 @@ body{
     .fila{
         flex-direction: column;
     }
+=======
+body{
+    background: rgb(223, 223, 186);
+}
+
+.baner{
+    width: 100%;
+    height: 10%;
+    background-color: blue;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.barra-nav{
+    background-color: transparent;
+}
+
+.barra-nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.box-caja{
+    margin: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 300px;
+    background-color: rgb(219, 239, 254);
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.box-caja2{
+    margin-top: 30px;
+}
+
+.box-caja2 h2{
+    color: blue;
+    font-size: 15px;
+}
+
+.box-caja2 strong{
+    color: black;
+    font-size: 30px;
+}
+
+.box-caja2 h1{
+    color: blue;
+    font-size: 30px;
+}
+
+.box-caja2 p{
+    color: black;
+    font-size: 15px;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.imagen img{
+    border-radius: 30px;
+}
+
+.contenedor{
+    margin: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 300px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+/* Colore y tamaños de ccntenedores */
+.contenedor1, .contenedor2, .contenedor3, .contenedor4{
+    width: 100px;
+    background-color: whitesmoke;
+    margin: 30px;
+    padding: 50px;
+    border-radius: 20px
+}
+
+/* Contenedor1 */
+.contenedor1 h1{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.contenedor1 p{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+/* Contenedor 2 */
+.contenedor2 h1{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.contenedor2 p{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+/* Contenedor3 */
+.contenedor3 h1{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.contenedor3 p{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+/* Contenedor 4 */
+.contenedor4 h1{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.contenedor4 p{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.texto{
+    font-size: 10px;
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+.texto p{
+    margin-left: 30px;
+    font-size: 30px;
+    color: black;
+    display: flex;
+    align-items: center;
+>>>>>>> 68f6c62126d5973a873df64652f693371a35b613
 }
